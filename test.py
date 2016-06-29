@@ -8,5 +8,31 @@ class myTest:
         print(video_path)
         return ""
 
-myTest1 = myTest();
+myTest1 = myTest()
 myTest1.getMyTestInfo()
+
+class A(object):
+    x = 1
+class B(A):
+    pass
+class C(A):
+    pass
+
+
+Aobj = A()
+Bobj = B()
+Cobj = C()
+
+print A.x, B.x, C.x
+print Aobj.x, Bobj.x, Cobj.x
+
+B.x = 2
+
+print A.x, B.x, C.x
+print Aobj.x, Bobj.x, Cobj.x
+
+A.x = 3
+print A.x, B.x, C.x
+print Aobj.x, Bobj.x, Cobj.x
+
+
