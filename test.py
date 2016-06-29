@@ -1,7 +1,9 @@
 class myTest:
     video_path = "hahahh"
-    
+    def __init__(self):
+        self.testProperty = "1255"
     def getMyTestInfo(self):
+        self.testProperty = "1255"
         video_path = "{}{}".format(11213, self.video_path) if self.video_path else self.video_path
         testVal = 1
         print(testVal)
