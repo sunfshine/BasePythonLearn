@@ -19,14 +19,14 @@ class shipContainer:
     #start one score mean the function is internal access
 
 shipContainer1 = shipContainer("111","222")
-shipContainer1.increaseSerious();
+shipContainer1.increaseSerious()
 print(shipContainer1.serious)
-shipContainer1.increaseSerious();
+shipContainer1.increaseSerious()
 print(shipContainer1.serious)
-shipContainer1.increaseSerious();
+shipContainer1.increaseSerious()
 print(shipContainer1.serious)
 shipContainer1.__test__(1111111111111111111111)
 shipContainer2 = shipContainer("111","222")
-shipContainer2.serious
+print shipContainer2.serious
 shipContainer3 = shipContainer("111","222")
-shipContainer3.serious
+print shipContainer3.serious
