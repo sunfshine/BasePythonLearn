@@ -45,3 +45,6 @@ print A.x, B.x, C.x
 print Aobj.x, Bobj.x, Cobj.x
 
 
+capture_db_info = {"1":2}
+if capture_db_info:
+    print "capture_db_info is empty"
